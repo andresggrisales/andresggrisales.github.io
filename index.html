@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio | Andres Galvis </title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css"><!--iconos font awesome-->
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,600" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+    <!--Start contenedor-->
+    <div class="contenedor">
+           <!--Star tarjeta-->
+        <section class="tarjeta">
+            <!--Star slider_banner-->
+            <section class="slider_banner">
+                <div class="banner" id="banner"><!--contenedor para las imagenes-->
+                    <img class="slide active" src="img/banner2.png" alt="tecnologia">
+                    <img class="slide" src="img/banner1.png" alt="computador">
+                    <img class="slide" src="img/banner3.png" alt="movil">
+                    <img class="slide" src="img/banner4.png" alt="robotica">
+                </div>
+                
+                <!--id para js poner las imagenes hacia derecha o izquierda, class para css-->
+                <a href="#" id="banner-prev" class="flecha-banner anterior"><span class="fas fa-chevron-left"></span></a>
+                <a href="#" id="banner-next" class="flecha-banner siguiente"><span class="fas fa-chevron-right"></span></a>
+            </section><!--End slider_banner-->
+            
+            <section class="slider_info"><!--Star slider_info-->
+                <a href="#" id="info-prev" class="flecha-info anterior"><span class="fas fa-chevron-left"></span></a>
+                <a href="#" id="info-next" class="flecha-info siguiente"><span class="fas fa-chevron-right"></span></a>
+                
+                <section id="informacion" class="informacion"><!--Star informacion-->
+                    <article id="info"><!--Star info-->
+                       
+                        <div class="slide active">
+                            <h1 class="nombre">Andrés Alberto Galvis</h1>
+                            <p class="trabajo">Desarrollador web</p>
+                            <p class="pais"><img src="img/iconfinder_Colombia_flat_92028.png" alt="">Colombia</p>
+                        </div>
+                        
+                        <div class="slide">
+                            <h2 class="subtitulo">Lorem ipsum dolor sit ametti.</h2>
+                            <p class="texto"> consectetur adipisicing elit. Odio doloribus fugit asperiores itaque enim ab ut quam sint dolore quisquam incidunt nihil distinctio dolores, totam voluptas tenetur ducimus voluptates obcaeca</p>
+                        </div>
+                        <div class="slide">
+                            <h2 class="subtitulo">Lorem ipsum dolor sit ametti.</h2>
+                            <p class="texto"> consectetur adipisicing elit. Odio doloribus fugit asperiores itaque enim ab ut quam sint dolore quisquam incidunt nihil distinctio dolores, totam voluptas tenetur ducimus voluptates obcaeca</p>
+                            <p class="texto"> consectetur adipisicing elit. Odio doloribus fugit asperiores itaque enim ab ut quam sint dolore quisquam incidunt nihil distinctio dolores, totam voluptas tenetur ducimus voluptates obcaeca</p>
+                        </div>
+                        
+                    </article><!--End info-->
+                    
+                    <div class="botones" id="botones">
+                       
+                    </div>
+                </section><!--End informacion-->
+                
+            </section><!--End slider_info-->
+            
+            <section class="redes-sociales"><!--Star redes sociales-->
+                <a href="" class="behance"><span class="fab fa-facebook-square"></span></a>
+                <a href="" class="facebook"><span class="fab fa-facebook-square"></span></a>
+                <a href="" class="twitter"><span class="fab fa-facebook-square"></span></a>
+            </section><!--End redes sociales-->
+         </section><!--End tarjeta-->
+    </div><!--End contenedor-->
+
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
